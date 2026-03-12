@@ -44,6 +44,7 @@ brews:
     repository:
       owner: harrisonratcliffe
       name: homebrew-tap
+      token: "{{ .Env.HOMEBREW_TAP_GITHUB_TOKEN }}"
     homepage: https://github.com/harrisonratcliffe/cache-warmer
     description: "Warm your web server's cache by crawling XML sitemaps"
     license: MIT
