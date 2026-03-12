@@ -1,0 +1,26 @@
+# Binaries
+cache-warmer
+cache-warmer-*
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of `go env GOPATH`/pkg
+*.out
+
+# GoReleaser dist
+dist/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
